@@ -1,0 +1,11 @@
+{
+  "name": "ble-test",
+  "version": "0.0.1",
+  "description": "A simple ble connection test sample",
+  "main": "main.py",
+  "author": "yutashi",
+  "language":"python",
+  "license": "",
+  "scripts": {
+     "start": "python3 -u main.py"
+    }
