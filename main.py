@@ -3,7 +3,7 @@ import time
 import sys
 
 sensors = [
-    '98:4f:ee:10:6c:78',
+    BLE_DEVICE1,
     '98:4f:ee:0f:cc:60'
 ]
 
