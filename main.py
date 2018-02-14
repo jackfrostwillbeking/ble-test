@@ -1,6 +1,7 @@
 from sensorbase import DistanceSensor
 import time
 import sys
+import os
 
 BLE_DEVICE1 = os.getenv('BLE_DEVICE1', 'Cannot load the env')
 
