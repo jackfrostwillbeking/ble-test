@@ -30,4 +30,3 @@ except SystemExit:
 except KeyboardInterrupt:
     [ i.join() for i in sensorObjs]
     sys.exit(0)
-#
