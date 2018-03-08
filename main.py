@@ -17,7 +17,7 @@ for i in sensors:
 
 [ i.start() for i in sensorObjs]
 
-subprocess.call(["/bin/bash"],["-c"],["./test_script.sh"])
+subprocess.call(["/bin/bash","-c","./test_script.sh"])
 
 try:
     while True:
