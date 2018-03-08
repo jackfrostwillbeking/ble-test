@@ -1,6 +1,6 @@
 {
   "name": "ble-test",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A simple ble connection test sample",
   "main": "main.py",
   "author": "yutashi",
