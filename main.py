@@ -1,4 +1,4 @@
-from sensorbase import DistanceSensor
+#from sensorbase import DistanceSensor
 import time
 import sys
 import os
