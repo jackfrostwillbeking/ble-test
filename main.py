@@ -18,7 +18,9 @@ for i in sensors:
 [ i.start() for i in sensorObjs]
 
 res = subprocess.call(["/bin/bash","-c","./test_script.sh"])
-print(res)
+sys.stdout.write("########")
+sys.stdout.write("res")
+sys.stdout.write("########")
 
 try:
     while True:
