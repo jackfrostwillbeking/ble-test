@@ -1,4 +1,4 @@
-#from sensorbase import DistanceSensor
+from sensorbase import DistanceSensor
 import time
 import sys
 import os
@@ -13,7 +13,7 @@ sensors = [
 
 sensorObjs = []
 for i in sensors:
-#    sensorObjs.append(DistanceSensor(i))
+    sensorObjs.append(DistanceSensor(i))
 
 [ i.start() for i in sensorObjs]
 
