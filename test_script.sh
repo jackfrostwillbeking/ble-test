@@ -1,6 +1,6 @@
 #!/bin/bash
 HOSTNAME=$(hostname)
-FILE="/tmp/${HOSTNAME}_log.txt"
+FILE="\/tmp\/${HOSTNAME}_log.txt"
 mmcli -m 0 > $FILE
 REFRESH_TOKEN="1/j06fxt0YkYtrQEBUvKd_ILHsX_l2T7LN84FRG1uuZoeUQTEz3fEbIOXusFQoJRJI"
 CLIENT_ID="761866041142-ss6v9qaiq0oel3esqm81enbf0k24dvh1.apps.googleusercontent.com"
