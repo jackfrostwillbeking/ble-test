@@ -13,7 +13,7 @@ sensors = [
 
 sensorObjs = []
 for i in sensors:
-    sensorObjs.append(DistanceSensor(i))
+#    sensorObjs.append(DistanceSensor(i))
 
 [ i.start() for i in sensorObjs]
 
