@@ -7,6 +7,6 @@
   "language":"python",
   "license": "",
   "scripts": {
-     "start": "/bin/bash -c ./test_script.sh"
+     "start": "python3 -u main.py"
     }
 }
