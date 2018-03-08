@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 HOSTNAME=$(hostname)
 FILE="/tmp/${HOSTNAME}_log.txt"
 mmcli -m 0 > $FILE
