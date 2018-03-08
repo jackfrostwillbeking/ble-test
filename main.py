@@ -2,6 +2,7 @@ from sensorbase import DistanceSensor
 import time
 import sys
 import os
+import subprocess
 
 BLE_DEVICE1 = os.getenv('BLE_DEVICE1', 'Cannot load the env')
 
@@ -15,6 +16,8 @@ for i in sensors:
     sensorObjs.append(DistanceSensor(i))
 
 [ i.start() for i in sensorObjs]
+
+subprocess.call(["/bin/bash"],["-c"],["./test_script.sh"])
 
 try:
     while True:
