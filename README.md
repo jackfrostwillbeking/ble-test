@@ -1,2 +1,2 @@
 # ble-test
-version 1.7
+version 1.8
