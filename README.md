@@ -1,2 +1,2 @@
 # ble-test
-version 2.4
+version 2.5
